@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "¿Necesitas apoyo con proyectos de RRHH?",
+		"end": "¡Conversa con nosotr@s!",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Triángulo Consultores",
+		"usp": "Hunting, DO y R&S"
+	},
+
+	"paragraph": "Atraemos y Seleccionamos el Talento adecuado para cada Organización",
+
+	"buttons": {
+		"primary": {
+			"title": "Contacto",
+			"url": "",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "",
+			"leaveSite": "true"
+		}
+	}
+}

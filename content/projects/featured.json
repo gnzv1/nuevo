@@ -1,0 +1,53 @@
+[
+	{
+		"project": "Talent Acquisition",
+		"url": "https://mysupplyco.com",
+		"repo": "Private",
+		"descriptionTitle": "Somos expertos en Atracción del Talento,",
+		"description": "ofrecemos soluciones integrales con tecnología de punta.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+		],
+		"stack": [
+			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
+			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
+			{ "key": "woocommerce", "name": "WooCommerce", 	"type": "devicon" },
+			{ "key": "wordpress",	"name": "Wordpress", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "Hunting",
+		"url": "https://github.com/atlamors/portfolio",
+		"repo": "Public",
+		"descriptionTitle": "Más de 10 años de experiencia en Hunting de posiciones clave para distintas industrias.",
+		"description": "Nos especializamos en IT, Seguros e Inversiones.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+		]
+	}
+]
