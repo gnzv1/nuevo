@@ -1,8 +1,8 @@
 {
 	"scripts": {
-		"dev": "node server.js",
+		"dev": "next",
 		"build": "next build",
-		"start": "NODE_ENV=production node server.js",
+		"start": "next start",
 		"lint": "next lint",
 		"test": "jest --watch"
 	},
@@ -23,11 +23,8 @@
 		"@uiw/react-markdown-preview": "^4.1.7",
 		"@vercel/analytics": "^0.1.6",
 		"babel-plugin-macros": "^3.1.0",
-		"cors": "^2.8.5",
 		"devicon": "^2.15.1",
-		"express": "^4.19.2",
 		"framer-motion": "^8.5.0",
-		"mongodb": "^6.5.0",
 		"next": "^12.3",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
