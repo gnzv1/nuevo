@@ -19,7 +19,7 @@ export default function Navbar() {
         menuToggle(bool);
     };
 
-    return (
+       return (
         <nav id="Navbar" className={css.container}>
             <ul className={css.menu}>
                 <li className={css.menuHeader}>
@@ -46,6 +46,9 @@ export default function Navbar() {
                                 )}
                             </li>
                         ))}
+                        <li>
+                            <ThemeMode />
+                        </li>
                     </ul>
                 </li>
             </ul>
