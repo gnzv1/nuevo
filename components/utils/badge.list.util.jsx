@@ -3,7 +3,6 @@ import { m, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer'
 
 // Utility components
-import Icon from '../utils/icon.util.jsx'
 
 /**
 * scss reference for utils should probably be pulled in from the first component under the section
@@ -70,7 +69,6 @@ export default function Badges({ list, block, color, fullContainer }) {
 					className={`${badges.item} ${key}`}
 					//Animations
 					variants={item} >
-					<IconModule iconKey={key} iconType={type} color={color}/>
 					<span className={badges.title}>{name}</span>
 				</m.li> 
 				)
