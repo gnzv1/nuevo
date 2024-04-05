@@ -42,7 +42,6 @@ export default function FeaturedProject({ content }, index) {
 						<p><strong>{descriptionTitle}</strong> {description}</p>
 					</div>
 					<div className={css.stackContainer}>
-						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
 					<m.div variants={''} className={css.viewProject}>
 					</m.div>
