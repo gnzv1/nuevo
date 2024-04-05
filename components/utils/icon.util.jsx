@@ -1,7 +1,7 @@
 // Core packages
 import { useEffect, useState } from 'react'
 
-// Font Awesome packages
+ /** Font Awesome packages
 const { library, config } = require('@fortawesome/fontawesome-svg-core')
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/pro-solid-svg-icons'
