@@ -10,7 +10,6 @@ import SectionGridBg from '../../blocks/section.grid.block'
 
 // Section specific blocks
 import BadgesBlock from '../../blocks/about.badges.block'
-import CopyBlock from '../../blocks/about.copy.block'
 
 // Section scss
 import about from '../../../styles/sections/index/about.module.scss';
