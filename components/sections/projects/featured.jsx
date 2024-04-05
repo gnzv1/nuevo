@@ -1,5 +1,3 @@
-import FeaturedProject from '../../blocks/projects/featured'
-
 
 // Section structure
 import Section 		from '../../structure/section';
