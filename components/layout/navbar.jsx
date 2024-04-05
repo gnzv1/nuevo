@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import ThemeMode from '../utils/theme.util'
 import settings from '../../content/_settings.json';
 import content from '../../content/navbar.json';
 import css from '../../styles/structure/navbar.module.scss';
