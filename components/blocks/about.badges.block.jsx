@@ -1,5 +1,4 @@
 
-import Icon from '../utils/icon.util.jsx'
 import Badges 	from '../utils/badge.list.util'
 
 import badges 	from '../../styles/blocks/badges.module.scss';
