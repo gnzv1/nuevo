@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 
 import Container from '../structure/container'
-import Icon from '../utils/icon.util'
 
 import css from '../../styles/structure/footer.module.scss'
 
@@ -38,7 +37,7 @@ export default function Footer() {
 						content.acknowledgments.map( ({ person, link, note }, index) => {
 							return (
 								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer" target="_blank">{person}</a>
 									<p>{note}</p>
 								</li>
 							)
@@ -51,7 +50,7 @@ export default function Footer() {
 						content.links.map( ({ person, link, note }, index) => {
 							return (
 								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer" target="_blank">{person} </a>
 									<p>{note}</p>
 								</li>
 							)
@@ -62,9 +61,9 @@ export default function Footer() {
 						<li><h4>Social</h4></li>
 						<li className={css.socialList}>
 							{
-							content.social.map( ({ url, icon }, index) => {
+							content.social.map( ({ url }, index) => {
 								return (
-									<a  key={index} href={url} rel="noreferrer" target="_blank"><Icon icon={[ 'fab', icon ]} /></a>
+									<a  key={index} href={url} rel="noreferrer" target="_blank"></a>
 								)
 							})
 							}
@@ -76,10 +75,10 @@ export default function Footer() {
 						<h5>{settings.portfolio.forkthis}</h5>
 						<ul>
 							<li>
-								<p><Icon icon={[ 'fad', 'code-branch' ]} /> Forks: { gitHubInfo.forks }</p>
+								<p> Forks: { gitHubInfo.forks }</p>
 							</li>
 							<li>
-								<p><Icon icon={[ 'fad', 'star' ]} /> Stars: { gitHubInfo.stars }</p>
+								<p> Stars: { gitHubInfo.stars }</p>
 							</li>
 						</ul>
 					</a>
