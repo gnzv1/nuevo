@@ -36,13 +36,7 @@ export default function About() {
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
-						<CopyBlock 
-							title="Consultoria RRHH"
-							containerClass={about.container}
-							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
-							copy="Hemos estado en muchas oportunidades en el lado del Cliente. Sabemos lo necesario que es el alineamiento entre Consultores y Organizaciones, por lo que trabajamos con diversas plataformas y una reportería cercana, informativa y eficiente."
-						/>
+						
 						<BadgesBlock 
 							title="Posiciones complejas" 
 							containerClass={about.container}
